@@ -1,15 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-export default class Annouces extends Component {
-     constructor() {
-          super();
-     }
+class Annouces extends Component {
+	constructor() {
+		super();
+	}
 
-     render() {
-          return (
-               <div>
-                    Annouces component
-               </div>
-          )
-     }
+	render() {
+		return <div>Annouces component</div>;
+	}
 }
+export default Annouces;

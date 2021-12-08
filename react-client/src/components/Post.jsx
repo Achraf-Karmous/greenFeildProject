@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Post = (props) => {
 	const [post, setPost] = useState(props.post);
 	return (
-		<div className="postCard">
+		<div className='postCard'>
 			<div className='postImg'>
 				<img src={post.pics[0]} />
 				<img src={post.pics[1]} />
